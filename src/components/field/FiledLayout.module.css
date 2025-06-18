@@ -1,0 +1,11 @@
+.app {
+	display: flex;
+	flex-wrap: wrap;
+	width: 350px;
+}
+
+.field {
+	width: 100px;
+	height: 50px;
+	border: 1px solid white;
+}
