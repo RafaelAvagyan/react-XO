@@ -1,7 +1,6 @@
 import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import react from '@vitejs/plugin-react-swc'; // <-- Заменили на swc
 
-// https://vite.dev/config/
 export default defineConfig(({ mode }) => {
 	const isDev = mode !== 'production';
 
